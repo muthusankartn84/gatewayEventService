@@ -12,11 +12,7 @@ import java.time.Instant;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@Table(
-        uniqueConstraints =
-        @UniqueConstraint(columnNames = "eventId")
-)
+@Builderst
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -12,7 +12,6 @@ import java.time.Instant;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Builderst
 public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
